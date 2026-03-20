@@ -13,7 +13,7 @@ also gives out R-code to recreate the map in your own code.
 You can install the development version of projproj like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+pak::pak("setnorth/projproj")
 ```
 
 
