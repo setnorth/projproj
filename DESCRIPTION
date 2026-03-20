@@ -1,0 +1,17 @@
+Package: projproj
+Type: Package
+Title: rnaturalearth Projection Helper
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Thorsten", "Schilling",
+      email = "thorsten.schilling@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Helps selecting or reviewing projections for rnaturalearth maps
+    rendered via ggplot.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
