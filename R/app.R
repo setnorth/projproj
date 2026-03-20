@@ -1,15 +1,10 @@
-library(shiny)
-library(sf)
-library(rnaturalearth)
-library(ggplot2)
-
 #' Shiny application that shows different projections with "movable" map
 #' rendered by ggplot2 rnaturalearth.
 #'
 #' @importFrom ggplot2 coord_sf geom_sf ggplot labs theme_minimal
 #' @importFrom rnaturalearth ne_countries
 #' @importFrom sf st_bbox st_crs st_transform
-#' @importFrom shiny column fluidPage fluidRow h4 observeEvent plotOutput reactive renderPlot renderTable renderUI selectInput shinyApp sliderInput tableOutput titlePanel uiOutput updateSelectInput updateSliderInput
+#' @importFrom shiny tags column fluidPage fluidRow h4 observeEvent plotOutput reactive renderPlot renderTable renderUI selectInput shinyApp sliderInput tableOutput titlePanel uiOutput updateSelectInput updateSliderInput
 #' @importFrom stats setNames
 #' @export
 projproj <- function(){
