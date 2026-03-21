@@ -1,5 +1,16 @@
-#' Shiny application that shows different projections with "movable" map
-#' rendered by ggplot2 rnaturalearth.
+#' Launch an interactive Shiny helper for map projections and plot extents
+#'
+#' Intended as a small utility for exploring how maps behave under different
+#' coordinate reference systems, especially for regional, polar, and world maps.
+#'
+#' @return
+#' A Shiny application object. Running `app()` launches the interactive
+#' application via [shiny::shinyApp()].
+#'
+#' @examples
+#' \dontrun{
+#' app()
+#' }
 #'
 #' @importFrom ggplot2 coord_sf geom_sf ggplot labs theme_minimal
 #' @importFrom rnaturalearth ne_countries
@@ -7,7 +18,7 @@
 #' @importFrom shiny tags column fluidPage fluidRow h4 observeEvent plotOutput reactive renderPlot renderTable renderUI selectInput shinyApp sliderInput tableOutput titlePanel uiOutput updateSelectInput updateSliderInput
 #' @importFrom stats setNames
 #' @export
-projproj <- function(){
+ne_projection_helper <- function(){
   # ------------------------------------------------------------------------------
   # Projection choices
   # ------------------------------------------------------------------------------
@@ -84,7 +95,7 @@ projproj <- function(){
     minutes <- floor(minutes_full)
     seconds <- (minutes_full - minutes) * 60
 
-    sprintf("%d° %d' %.2f\" %s", degrees, minutes, seconds, hemisphere)
+    sprintf("%d\xB0 %d' %.2f\" %s", degrees, minutes, seconds, hemisphere)
   }
 
   # ------------------------------------------------------------------------------
