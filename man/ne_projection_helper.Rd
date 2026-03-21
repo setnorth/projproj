@@ -7,16 +7,10 @@
 ne_projection_helper()
 }
 \value{
-A Shiny application object. Running `app()` launches the interactive
-application via [shiny::shinyApp()].
+A Shiny application object. Running `ne_projection_helper()` launches
+the interactive application via `shiny::shinyApp()`.
 }
 \description{
 Intended as a small utility for exploring how maps behave under different
 coordinate reference systems, especially for regional, polar, and world maps.
-}
-\examples{
-\dontrun{
-app()
-}
-
 }

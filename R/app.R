@@ -4,13 +4,8 @@
 #' coordinate reference systems, especially for regional, polar, and world maps.
 #'
 #' @return
-#' A Shiny application object. Running `app()` launches the interactive
-#' application via [shiny::shinyApp()].
-#'
-#' @examples
-#' \dontrun{
-#' app()
-#' }
+#' A Shiny application object. Running `ne_projection_helper()` launches
+#' the interactive application via `shiny::shinyApp()`.
 #'
 #' @importFrom ggplot2 coord_sf geom_sf ggplot labs theme_minimal
 #' @importFrom rnaturalearth ne_countries
