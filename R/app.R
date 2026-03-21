@@ -95,7 +95,7 @@ ne_projection_helper <- function(){
     minutes <- floor(minutes_full)
     seconds <- (minutes_full - minutes) * 60
 
-    sprintf("%d\xB0 %d' %.2f\" %s", degrees, minutes, seconds, hemisphere)
+    sprintf("%d\u00B0 %d' %.2f\" %s", degrees, minutes, seconds, hemisphere)
   }
 
   # ------------------------------------------------------------------------------
