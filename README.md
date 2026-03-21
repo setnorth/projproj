@@ -3,10 +3,10 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
+## Interactive Shiny helper for map projections and plot extents
 
-The goal of projproj is to have a small application that demonstrates the 
-effects of different projections on rnaturalearth maps rendered with ggplot2. It
-also gives out R-code to recreate the map in your own code.
+Intended as a small utility for exploring how maps behave under different
+coordinate reference systems, especially for regional, polar, and world maps.
 
 ## Installation
 
@@ -16,4 +16,10 @@ You can install the development version of projproj like so:
 pak::pak("setnorth/projproj")
 ```
 
+## Running the program
 
+In order to run the program run:
+
+``` r
+projproj::ne_projection_helper()
+```

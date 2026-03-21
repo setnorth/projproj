@@ -9,8 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Helps selecting or reviewing projections for rnaturalearth maps
-    rendered via ggplot.
+Description: Interactive Shiny helper for map projections and plot extents.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
