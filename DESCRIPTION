@@ -19,5 +19,6 @@ BugReports: https://github.com/setnorth/projproj/issues
 Imports: 
     ggplot2,
     rnaturalearth,
+    rnaturalearthdata,
     sf,
     shiny

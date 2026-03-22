@@ -8,11 +8,15 @@
 Intended as a small utility for exploring how maps behave under different
 coordinate reference systems, especially for regional, polar, and world maps.
 
+Displays a ggplot map rendering of a given bounding box and projection. The app
+also generates the code to reproduce the map in R.
+
 ## Installation
 
 You can install the development version of projproj like so:
 
 ``` r
+install.packages("devtools")
 pak::pak("setnorth/projproj")
 ```
 
