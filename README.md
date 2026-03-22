@@ -16,7 +16,7 @@ also generates the code to reproduce the map in R.
 You can install the development version of projproj like so:
 
 ``` r
-install.packages("devtools")
+# install.packages("pak")
 pak::pak("setnorth/projproj")
 ```
 
