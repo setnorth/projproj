@@ -10,6 +10,7 @@
 #' @importFrom ggplot2 coord_sf geom_sf ggplot labs theme_minimal
 #' @importFrom rnaturalearth ne_countries
 #' @import rnaturalearthdata
+#' @import rnaturalearthhires
 #' @importFrom sf st_bbox st_crs st_transform
 #' @importFrom shiny tags column fluidPage fluidRow h4 observeEvent plotOutput reactive renderPlot renderTable renderUI selectInput shinyApp sliderInput tableOutput titlePanel uiOutput updateSelectInput updateSliderInput
 #' @importFrom stats setNames

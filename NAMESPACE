@@ -2,6 +2,7 @@
 
 export(ne_projection_helper)
 import(rnaturalearthdata)
+import(rnaturalearthhires)
 importFrom(ggplot2,coord_sf)
 importFrom(ggplot2,geom_sf)
 importFrom(ggplot2,ggplot)
